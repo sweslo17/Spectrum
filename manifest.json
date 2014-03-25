@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "test",
+  "description": "re",
+  "version": "1.0",
+
+  "browser_action": {
+	"default_icon": "icon.png",
+	"default_popup": "test.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*"
+  ]
+}
