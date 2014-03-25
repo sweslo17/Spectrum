@@ -11,3 +11,19 @@
 	+ user generate
 		+ 不同意目前給分/分類 => 提供評分建議
 		+ 對尚未被專家評分支網頁提供評分/分類 => 所有網友評分之平均
++ 以google spreadsheet儲存資料
+---------------------------
+
+####DB Schema
+
++ title
++ url
++ score
++ category
++ viewcount
++ type
+	+ user generate => 0
+	+ expert => 1
+	+ viewed but no comment => 2
+	
+**key: title + url
