@@ -68,7 +68,7 @@ $().ready(function(){
 				// console.log(query_score);
 				// console.log((Math.abs(score)+1)+'>= '+ Math.abs(val.c[2].v));
 				// console.log((Math.abs(score)-1) +'<='+ Math.abs(val.c[2].v));
-				if((Math.abs(score)+1) >= Math.abs(val.c[2].v) && (Math.abs(score)-1) <= Math.abs(val.c[2].v))
+				if((Math.abs(score)+1) >= Math.abs(val.c[2].v) && (Math.abs(score)-1) <= Math.abs(val.c[2].v) && val.c[1].v != search_url)
 				{
 					recommand_list.push(val);
 				}
