@@ -6,7 +6,7 @@ $().ready(function(){
         search_title = tab.title;
         console.log(encodeURIComponent(search_url));
         var url = 'https://spreadsheets.google.com/tq?tqx=&key=0AmNbDWfyHFBMdENXT1hfVl9BN1BuSUl3Q2NkelIwZmc&tq=';
-        var query = "SELECT C,D WHERE (B='"+search_url+"') AND (A='"+search_title+"')";
+        var query = "SELECT C,D WHERE B='"+search_url+"'";
         console.log(url+encodeURIComponent(query));
         var result;
         jQuery.ajax({
