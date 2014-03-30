@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
 
-  "name": "test",
-  "description": "re",
+  "name": "Spectrum",
+  "description": "議題光譜--另一面說法",
   "version": "1.0",
 
   "browser_action": {
 	"default_icon": "icon.png",
-	"default_popup": "test.html"
+	"default_popup": "Spectrum.html"
   },
   "content_security_policy": "script-src 'self' 'unsafe-eval' https://spreadsheets.google.com;  object-src 'self'",
   "permissions": [
