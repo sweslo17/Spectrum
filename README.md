@@ -13,6 +13,7 @@
 	+ 下載 build/版號(1.x...)/Spectrum.crx
 	+ 開啟chrome，在網址列打chrome://extensions/
 	+ 開啟資料夾，將Spectrum.crx拖曳到chrome視窗內
+		+ 參考 http://tech.fanpiece.com/3brostudio/chrome-crx%E6%AA%94%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-c1093325.html
 	+ 完成安裝
 + 資料來源
 	+ expert
