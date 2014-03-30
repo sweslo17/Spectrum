@@ -85,7 +85,7 @@ $().ready(function(){
         }
         else
         {
-            $('body').text('not found');
+            $('body').append('目前無評分，請至<a target="_blank" href="https://docs.google.com/spreadsheets/d/1AOSRnb8FmR3V2fUWsx69j5fUjR5N88J2xXvHBgy1sfw/edit"><i>這裡</i></a>推薦');
         }
     });
 });
